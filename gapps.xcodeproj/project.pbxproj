@@ -14,6 +14,8 @@
 		018E776D1C55B24E00AE2AE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 018E776C1C55B24E00AE2AE0 /* Assets.xcassets */; };
 		018E77701C55B24E00AE2AE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 018E776E1C55B24E00AE2AE0 /* LaunchScreen.storyboard */; };
 		018E777B1C55B24E00AE2AE0 /* kappsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 018E777A1C55B24E00AE2AE0 /* kappsTests.m */; };
+		21A7C39201BCAB6B998EA9E4 /* libPods-gappsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2B7663B627C94AA61B389BB /* libPods-gappsTests.a */; };
+		85FB46DE78121CFA21798F3B /* libPods-gapps.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A0C8BD5DF7B4BD6B704B157A /* libPods-gapps.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,12 @@
 		018E77761C55B24E00AE2AE0 /* gapps.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gapps.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		018E777A1C55B24E00AE2AE0 /* kappsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kappsTests.m; sourceTree = "<group>"; };
 		018E777C1C55B24E00AE2AE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0361D22CDF83BE5928A99722 /* Pods-gappsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gappsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-gappsTests/Pods-gappsTests.release.xcconfig"; sourceTree = "<group>"; };
+		05070771D779EC259BBB9180 /* Pods-gapps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gapps.debug.xcconfig"; path = "Pods/Target Support Files/Pods-gapps/Pods-gapps.debug.xcconfig"; sourceTree = "<group>"; };
+		125CC6343B92EBC7C8F27609 /* Pods-gappsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gappsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-gappsTests/Pods-gappsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		692E90ED46E1CFE33AF5B148 /* Pods-gapps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gapps.release.xcconfig"; path = "Pods/Target Support Files/Pods-gapps/Pods-gapps.release.xcconfig"; sourceTree = "<group>"; };
+		A0C8BD5DF7B4BD6B704B157A /* libPods-gapps.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-gapps.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2B7663B627C94AA61B389BB /* libPods-gappsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-gappsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85FB46DE78121CFA21798F3B /* libPods-gapps.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21A7C39201BCAB6B998EA9E4 /* libPods-gappsTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +76,8 @@
 				018E775F1C55B24E00AE2AE0 /* gapps */,
 				018E77791C55B24E00AE2AE0 /* gappsTests */,
 				018E775E1C55B24E00AE2AE0 /* Products */,
+				0BF0A52A456902222D1D52E3 /* Pods */,
+				D200B509A4F3BA38BA63CE52 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -91,8 +103,7 @@
 				018E77711C55B24E00AE2AE0 /* Info.plist */,
 				018E77601C55B24E00AE2AE0 /* Supporting Files */,
 			);
-			name = gapps;
-			path = kapps;
+			path = gapps;
 			sourceTree = "<group>";
 		};
 		018E77601C55B24E00AE2AE0 /* Supporting Files */ = {
@@ -109,8 +120,27 @@
 				018E777A1C55B24E00AE2AE0 /* kappsTests.m */,
 				018E777C1C55B24E00AE2AE0 /* Info.plist */,
 			);
-			name = gappsTests;
-			path = kappsTests;
+			path = gappsTests;
+			sourceTree = "<group>";
+		};
+		0BF0A52A456902222D1D52E3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				05070771D779EC259BBB9180 /* Pods-gapps.debug.xcconfig */,
+				692E90ED46E1CFE33AF5B148 /* Pods-gapps.release.xcconfig */,
+				125CC6343B92EBC7C8F27609 /* Pods-gappsTests.debug.xcconfig */,
+				0361D22CDF83BE5928A99722 /* Pods-gappsTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D200B509A4F3BA38BA63CE52 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A0C8BD5DF7B4BD6B704B157A /* libPods-gapps.a */,
+				C2B7663B627C94AA61B389BB /* libPods-gappsTests.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,9 +150,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 018E777F1C55B24E00AE2AE0 /* Build configuration list for PBXNativeTarget "gapps" */;
 			buildPhases = (
+				252A855DF1065424D1A85C66 /* Check Pods Manifest.lock */,
 				018E77591C55B24E00AE2AE0 /* Sources */,
 				018E775A1C55B24E00AE2AE0 /* Frameworks */,
 				018E775B1C55B24E00AE2AE0 /* Resources */,
+				DC0F305484A6745FB62A48C8 /* Embed Pods Frameworks */,
+				67403036DBCBCEE719761395 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -137,9 +170,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 018E77821C55B24E00AE2AE0 /* Build configuration list for PBXNativeTarget "gappsTests" */;
 			buildPhases = (
+				B569CB46ECE576CA9E9C3522 /* Check Pods Manifest.lock */,
 				018E77721C55B24E00AE2AE0 /* Sources */,
 				018E77731C55B24E00AE2AE0 /* Frameworks */,
 				018E77741C55B24E00AE2AE0 /* Resources */,
+				5D33D533A98E60D027F0F124 /* Embed Pods Frameworks */,
+				1DE52513CB47F4642536F8F7 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -208,6 +244,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1DE52513CB47F4642536F8F7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-gappsTests/Pods-gappsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		252A855DF1065424D1A85C66 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5D33D533A98E60D027F0F124 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-gappsTests/Pods-gappsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67403036DBCBCEE719761395 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-gapps/Pods-gapps-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B569CB46ECE576CA9E9C3522 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DC0F305484A6745FB62A48C8 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-gapps/Pods-gapps-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		018E77591C55B24E00AE2AE0 /* Sources */ = {
@@ -342,6 +471,7 @@
 		};
 		018E77801C55B24E00AE2AE0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05070771D779EC259BBB9180 /* Pods-gapps.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -356,6 +486,7 @@
 		};
 		018E77811C55B24E00AE2AE0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 692E90ED46E1CFE33AF5B148 /* Pods-gapps.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -370,6 +501,7 @@
 		};
 		018E77831C55B24E00AE2AE0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 125CC6343B92EBC7C8F27609 /* Pods-gappsTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = kappsTests/Info.plist;
@@ -382,6 +514,7 @@
 		};
 		018E77841C55B24E00AE2AE0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0361D22CDF83BE5928A99722 /* Pods-gappsTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = kappsTests/Info.plist;
