@@ -27,7 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		018E775D1C55B24E00AE2AE0 /* kapps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kapps.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		018E775D1C55B24E00AE2AE0 /* gapps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gapps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		018E77611C55B24E00AE2AE0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		018E77631C55B24E00AE2AE0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		018E77641C55B24E00AE2AE0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -37,7 +37,7 @@
 		018E776C1C55B24E00AE2AE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		018E776F1C55B24E00AE2AE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		018E77711C55B24E00AE2AE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		018E77761C55B24E00AE2AE0 /* kappsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kappsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		018E77761C55B24E00AE2AE0 /* gapps.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gapps.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		018E777A1C55B24E00AE2AE0 /* kappsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kappsTests.m; sourceTree = "<group>"; };
 		018E777C1C55B24E00AE2AE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -63,8 +63,8 @@
 		018E77541C55B24D00AE2AE0 = {
 			isa = PBXGroup;
 			children = (
-				018E775F1C55B24E00AE2AE0 /* kapps */,
-				018E77791C55B24E00AE2AE0 /* kappsTests */,
+				018E775F1C55B24E00AE2AE0 /* gapps */,
+				018E77791C55B24E00AE2AE0 /* gappsTests */,
 				018E775E1C55B24E00AE2AE0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,13 +72,13 @@
 		018E775E1C55B24E00AE2AE0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				018E775D1C55B24E00AE2AE0 /* kapps.app */,
-				018E77761C55B24E00AE2AE0 /* kappsTests.xctest */,
+				018E775D1C55B24E00AE2AE0 /* gapps.app */,
+				018E77761C55B24E00AE2AE0 /* gapps.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		018E775F1C55B24E00AE2AE0 /* kapps */ = {
+		018E775F1C55B24E00AE2AE0 /* gapps */ = {
 			isa = PBXGroup;
 			children = (
 				018E77631C55B24E00AE2AE0 /* AppDelegate.h */,
@@ -91,6 +91,7 @@
 				018E77711C55B24E00AE2AE0 /* Info.plist */,
 				018E77601C55B24E00AE2AE0 /* Supporting Files */,
 			);
+			name = gapps;
 			path = kapps;
 			sourceTree = "<group>";
 		};
@@ -102,21 +103,22 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		018E77791C55B24E00AE2AE0 /* kappsTests */ = {
+		018E77791C55B24E00AE2AE0 /* gappsTests */ = {
 			isa = PBXGroup;
 			children = (
 				018E777A1C55B24E00AE2AE0 /* kappsTests.m */,
 				018E777C1C55B24E00AE2AE0 /* Info.plist */,
 			);
+			name = gappsTests;
 			path = kappsTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		018E775C1C55B24E00AE2AE0 /* kapps */ = {
+		018E775C1C55B24E00AE2AE0 /* gapps */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 018E777F1C55B24E00AE2AE0 /* Build configuration list for PBXNativeTarget "kapps" */;
+			buildConfigurationList = 018E777F1C55B24E00AE2AE0 /* Build configuration list for PBXNativeTarget "gapps" */;
 			buildPhases = (
 				018E77591C55B24E00AE2AE0 /* Sources */,
 				018E775A1C55B24E00AE2AE0 /* Frameworks */,
@@ -126,14 +128,14 @@
 			);
 			dependencies = (
 			);
-			name = kapps;
+			name = gapps;
 			productName = kapps;
-			productReference = 018E775D1C55B24E00AE2AE0 /* kapps.app */;
+			productReference = 018E775D1C55B24E00AE2AE0 /* gapps.app */;
 			productType = "com.apple.product-type.application";
 		};
-		018E77751C55B24E00AE2AE0 /* kappsTests */ = {
+		018E77751C55B24E00AE2AE0 /* gappsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 018E77821C55B24E00AE2AE0 /* Build configuration list for PBXNativeTarget "kappsTests" */;
+			buildConfigurationList = 018E77821C55B24E00AE2AE0 /* Build configuration list for PBXNativeTarget "gappsTests" */;
 			buildPhases = (
 				018E77721C55B24E00AE2AE0 /* Sources */,
 				018E77731C55B24E00AE2AE0 /* Frameworks */,
@@ -144,9 +146,9 @@
 			dependencies = (
 				018E77781C55B24E00AE2AE0 /* PBXTargetDependency */,
 			);
-			name = kappsTests;
+			name = gappsTests;
 			productName = kappsTests;
-			productReference = 018E77761C55B24E00AE2AE0 /* kappsTests.xctest */;
+			productReference = 018E77761C55B24E00AE2AE0 /* gapps.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -160,6 +162,7 @@
 				TargetAttributes = {
 					018E775C1C55B24E00AE2AE0 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = ZD6HC7L498;
 					};
 					018E77751C55B24E00AE2AE0 = {
 						CreatedOnToolsVersion = 7.2;
@@ -167,7 +170,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 018E77581C55B24D00AE2AE0 /* Build configuration list for PBXProject "kapps" */;
+			buildConfigurationList = 018E77581C55B24D00AE2AE0 /* Build configuration list for PBXProject "gapps" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -180,8 +183,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				018E775C1C55B24E00AE2AE0 /* kapps */,
-				018E77751C55B24E00AE2AE0 /* kappsTests */,
+				018E775C1C55B24E00AE2AE0 /* gapps */,
+				018E77751C55B24E00AE2AE0 /* gappsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -230,7 +233,7 @@
 /* Begin PBXTargetDependency section */
 		018E77781C55B24E00AE2AE0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 018E775C1C55B24E00AE2AE0 /* kapps */;
+			target = 018E775C1C55B24E00AE2AE0 /* gapps */;
 			targetProxy = 018E77771C55B24E00AE2AE0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -341,10 +344,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = kapps/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kperez.kapps;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kperez.gapps;
+				PRODUCT_NAME = gapps;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -352,10 +358,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = kapps/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kperez.kapps;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kperez.gapps;
+				PRODUCT_NAME = gapps;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -366,8 +375,8 @@
 				INFOPLIST_FILE = kappsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kperez.kappsTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kapps.app/kapps";
+				PRODUCT_NAME = gapps;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gapps.app/gapps";
 			};
 			name = Debug;
 		};
@@ -378,15 +387,15 @@
 				INFOPLIST_FILE = kappsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kperez.kappsTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kapps.app/kapps";
+				PRODUCT_NAME = gapps;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gapps.app/gapps";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		018E77581C55B24D00AE2AE0 /* Build configuration list for PBXProject "kapps" */ = {
+		018E77581C55B24D00AE2AE0 /* Build configuration list for PBXProject "gapps" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				018E777D1C55B24E00AE2AE0 /* Debug */,
@@ -395,21 +404,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		018E777F1C55B24E00AE2AE0 /* Build configuration list for PBXNativeTarget "kapps" */ = {
+		018E777F1C55B24E00AE2AE0 /* Build configuration list for PBXNativeTarget "gapps" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				018E77801C55B24E00AE2AE0 /* Debug */,
 				018E77811C55B24E00AE2AE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		018E77821C55B24E00AE2AE0 /* Build configuration list for PBXNativeTarget "kappsTests" */ = {
+		018E77821C55B24E00AE2AE0 /* Build configuration list for PBXNativeTarget "gappsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				018E77831C55B24E00AE2AE0 /* Debug */,
 				018E77841C55B24E00AE2AE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
