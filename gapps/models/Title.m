@@ -19,8 +19,6 @@ NSString *const kTitleLabel = @"label";
 
 @implementation Title
 
-@synthesize label = _label;
-
 
 + (instancetype)modelObjectWithDictionary:(NSDictionary *)dict
 {

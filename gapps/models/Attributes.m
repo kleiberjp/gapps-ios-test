@@ -29,19 +29,6 @@ NSString *const kAttributesTerm = @"term";
 
 @implementation Attributes
 
-@synthesize amount = _amount;
-@synthesize height = _height;
-@synthesize scheme = _scheme;
-@synthesize rel = _rel;
-@synthesize href = _href;
-@synthesize imBundleId = _imBundleId;
-@synthesize label = _label;
-@synthesize imId = _imId;
-@synthesize currency = _currency;
-@synthesize type = _type;
-@synthesize term = _term;
-
-
 + (instancetype)modelObjectWithDictionary:(NSDictionary *)dict
 {
     return [[self alloc] initWithDictionary:dict];

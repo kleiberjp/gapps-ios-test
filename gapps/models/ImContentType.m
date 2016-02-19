@@ -20,8 +20,6 @@ NSString *const kImContentTypeAttributes = @"attributes";
 
 @implementation ImContentType
 
-@synthesize attributes = _attributes;
-
 
 + (instancetype)modelObjectWithDictionary:(NSDictionary *)dict
 {

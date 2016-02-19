@@ -19,8 +19,6 @@ NSString *const kImNameLabel = @"label";
 
 @implementation ImName
 
-@synthesize label = _label;
-
 
 + (instancetype)modelObjectWithDictionary:(NSDictionary *)dict
 {

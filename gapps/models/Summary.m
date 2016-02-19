@@ -19,8 +19,6 @@ NSString *const kSummaryLabel = @"label";
 
 @implementation Summary
 
-@synthesize label = _label;
-
 
 + (instancetype)modelObjectWithDictionary:(NSDictionary *)dict
 {

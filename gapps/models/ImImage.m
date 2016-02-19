@@ -21,9 +21,6 @@ NSString *const kImImageAttributes = @"attributes";
 
 @implementation ImImage
 
-@synthesize label = _label;
-@synthesize attributes = _attributes;
-
 
 + (instancetype)modelObjectWithDictionary:(NSDictionary *)dict
 {

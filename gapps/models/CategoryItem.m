@@ -20,8 +20,6 @@ NSString *const kCategoryAttributes = @"attributes";
 
 @implementation CategoryItem
 
-@synthesize attributes = _attributes;
-
 
 + (instancetype)modelObjectWithDictionary:(NSDictionary *)dict
 {

@@ -20,8 +20,6 @@ NSString *const kLinkAttributes = @"attributes";
 
 @implementation Link
 
-@synthesize attributes = _attributes;
-
 
 + (instancetype)modelObjectWithDictionary:(NSDictionary *)dict
 {

@@ -19,8 +19,6 @@ NSString *const kRightsLabel = @"label";
 
 @implementation Rights
 
-@synthesize label = _label;
-
 
 + (instancetype)modelObjectWithDictionary:(NSDictionary *)dict
 {

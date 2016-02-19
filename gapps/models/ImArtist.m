@@ -21,9 +21,6 @@ NSString *const kImArtistAttributes = @"attributes";
 
 @implementation ImArtist
 
-@synthesize label = _label;
-@synthesize attributes = _attributes;
-
 
 + (instancetype)modelObjectWithDictionary:(NSDictionary *)dict
 {

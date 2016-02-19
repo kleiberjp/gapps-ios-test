@@ -21,9 +21,6 @@ NSString *const kImReleaseDateAttributes = @"attributes";
 
 @implementation ImReleaseDate
 
-@synthesize label = _label;
-@synthesize attributes = _attributes;
-
 
 + (instancetype)modelObjectWithDictionary:(NSDictionary *)dict
 {
