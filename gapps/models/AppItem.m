@@ -6,19 +6,6 @@
 //
 
 #import "AppItem.h"
-#import "ImContentType.h"
-#import "Rights.h"
-#import "CategoryItem.h"
-#import "IdClass.h"
-#import "ImImage.h"
-#import "ImPrice.h"
-#import "Link.h"
-#import "ImArtist.h"
-#import "ImName.h"
-#import "Title.h"
-#import "Summary.h"
-#import "ImReleaseDate.h"
-
 
 NSString *const kEntryImContentType = @"im:contentType";
 NSString *const kEntryRights = @"rights";

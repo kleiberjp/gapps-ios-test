@@ -6,8 +6,6 @@
 //
 
 #import "Applications.h"
-#import "AppItem.h"
-
 
 NSString *const kApplicationsEntry = @"entry";
 

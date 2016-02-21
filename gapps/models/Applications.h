@@ -6,8 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
-
+#import "AppItem.h"
 
 @interface Applications : NSObject <NSCoding, NSCopying>
 

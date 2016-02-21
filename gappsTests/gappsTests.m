@@ -1,6 +1,6 @@
 //
-//  kappsTests.m
-//  kappsTests
+//  gappsTests.m
+//  gappsTests
 //
 //  Created by Kleiber J Perez on 24/01/16.
 //  Copyright © 2016 Kleiber J Perez. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface kappsTests : XCTestCase
+@interface gappsTests : XCTestCase
 
 @end
 
-@implementation kappsTests
+@implementation gappsTests
 
 - (void)setUp {
     [super setUp];

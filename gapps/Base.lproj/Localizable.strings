@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  gapps
+
+  Created by Kleiber J Perez on 20/02/16.
+  Copyright © 2016 Kleiber J Perez. All rights reserved.
+*/
+"btn-details" = "View Details";
+"btn-itunes" = "View in Itunes";
+"free" = "Free";
+"title-list" = "Last applications";
+"title-process" = "Processing data, just a few seconds";

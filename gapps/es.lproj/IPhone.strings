@@ -1,0 +1,51 @@
+
+/* Class = "UILabel"; text = "Category:"; ObjectID = "0fR-x0-t97"; */
+"0fR-x0-t97.text" = "Categoria:";
+
+/* Class = "UILabel"; text = "Date"; ObjectID = "4f2-Xw-CoF"; */
+"4f2-Xw-CoF.text" = "Date";
+
+/* Class = "UILabel"; text = "By:"; ObjectID = "Byv-X4-F97"; */
+"Byv-X4-F97.text" = "Por:";
+
+/* Class = "UILabel"; text = "Category"; ObjectID = "IBR-0U-Fis"; */
+"IBR-0U-Fis.text" = "Category";
+
+/* Class = "UILabel"; text = "Category:"; ObjectID = "LXx-PW-b9a"; */
+"LXx-PW-b9a.text" = "Categoria:";
+
+/* Class = "UILabel"; text = "Artist"; ObjectID = "M6x-YY-4dq"; */
+"M6x-YY-4dq.text" = "Artist";
+
+/* Class = "UILabel"; text = "Loading data, please wait..."; ObjectID = "ZRI-4s-Dcc"; */
+"ZRI-4s-Dcc.text" = "Cargando data...";
+
+/* Class = "UILabel"; text = "Released:"; ObjectID = "b17-AB-fyn"; */
+"b17-AB-fyn.text" = "Publicado:";
+
+/* Class = "UILabel"; text = "0%"; ObjectID = "cP4-uh-0ZX"; */
+"cP4-uh-0ZX.text" = "0%";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "fPk-rk-Zyv"; */
+"fPk-rk-Zyv.text" = "Label";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "klZ-Nw-CYa"; */
+"klZ-Nw-CYa.text" = "Name";
+
+/* Class = "UILabel"; text = "Artist"; ObjectID = "lUT-eB-0zY"; */
+"lUT-eB-0zY.text" = "Artist";
+
+/* Class = "UILabel"; text = "By:"; ObjectID = "sQX-d0-ggs"; */
+"sQX-d0-ggs.text" = "Por:";
+
+/* Class = "UILabel"; text = "Rights"; ObjectID = "vhf-5Y-NGR"; */
+"vhf-5Y-NGR.text" = "Rights";
+
+/* Class = "UILabel"; text = "Category"; ObjectID = "xHW-V8-1wB"; */
+"xHW-V8-1wB.text" = "Category";
+
+/* Class = "UILabel"; text = "Price"; ObjectID = "xgd-nB-jws"; */
+"xgd-nB-jws.text" = "Price";
+
+/* Class = "UILabel"; text = "Price"; ObjectID = "zXK-zN-yZ7"; */
+"zXK-zN-yZ7.text" = "Price";

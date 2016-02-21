@@ -6,8 +6,6 @@
 //
 
 #import "ImPrice.h"
-#import "Attributes.h"
-
 
 NSString *const kImPriceLabel = @"label";
 NSString *const kImPriceAttributes = @"attributes";

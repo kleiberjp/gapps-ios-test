@@ -6,6 +6,19 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "ImContentType.h"
+#import "Rights.h"
+#import "CategoryItem.h"
+#import "IdClass.h"
+#import "ImImage.h"
+#import "ImPrice.h"
+#import "Link.h"
+#import "ImArtist.h"
+#import "ImName.h"
+#import "Title.h"
+#import "Summary.h"
+#import "ImReleaseDate.h"
+#import <UIKit/UIKit.h>
 
 @class ImContentType, Rights, CategoryItem, IdClass, ImPrice, Link, ImArtist, ImName, Title, Summary, ImReleaseDate;
 
@@ -23,6 +36,8 @@
 @property (nonatomic, strong) Title *title;
 @property (nonatomic, strong) Summary *summary;
 @property (nonatomic, strong) ImReleaseDate *imReleaseDate;
+@property (nonatomic, retain) UIImage *imageApp;
+
 
 + (instancetype)modelObjectWithDictionary:(NSDictionary *)dict;
 - (instancetype)initWithDictionary:(NSDictionary *)dict;

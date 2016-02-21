@@ -1,0 +1,54 @@
+
+/* Class = "UILabel"; text = "Category:"; ObjectID = "4ht-td-aEr"; */
+"4ht-td-aEr.text" = "Categoria:";
+
+/* Class = "UILabel"; text = "Category"; ObjectID = "83w-aq-nQP"; */
+"83w-aq-nQP.text" = "Category";
+
+/* Class = "UILabel"; text = "Category"; ObjectID = "9XM-6E-Umx"; */
+"9XM-6E-Umx.text" = "Category";
+
+/* Class = "UINavigationItem"; title = "Root View Controller"; ObjectID = "D70-9q-Jvz"; */
+"D70-9q-Jvz.title" = "Root View Controller";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "HkL-Wk-psS"; */
+"HkL-Wk-psS.text" = "Label";
+
+/* Class = "UILabel"; text = "0%"; ObjectID = "L8U-21-FHc"; */
+"L8U-21-FHc.text" = "0%";
+
+/* Class = "UILabel"; text = "Price"; ObjectID = "N3I-mH-P9R"; */
+"N3I-mH-P9R.text" = "Price";
+
+/* Class = "UILabel"; text = "Release:"; ObjectID = "Qc9-s0-dVo"; */
+"Qc9-s0-dVo.text" = "Publicado:";
+
+/* Class = "UILabel"; text = "By:"; ObjectID = "SUW-W7-twq"; */
+"SUW-W7-twq.text" = "Por:";
+
+/* Class = "UILabel"; text = "Category:"; ObjectID = "WN2-13-Zx2"; */
+"WN2-13-Zx2.text" = "Categoria:";
+
+/* Class = "UILabel"; text = "Date"; ObjectID = "bnP-Yb-MU0"; */
+"bnP-Yb-MU0.text" = "Date";
+
+/* Class = "UILabel"; text = "By:"; ObjectID = "eQ3-0M-h9R"; */
+"eQ3-0M-h9R.text" = "Por:";
+
+/* Class = "UILabel"; text = "Right"; ObjectID = "keA-bB-ait"; */
+"keA-bB-ait.text" = "Right";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "kog-ky-igs"; */
+"kog-ky-igs.text" = "Name";
+
+/* Class = "UILabel"; text = "Artist"; ObjectID = "nMJ-TD-wdV"; */
+"nMJ-TD-wdV.text" = "Artist";
+
+/* Class = "UILabel"; text = "Loading data, please wait..."; ObjectID = "rCq-Rz-gLC"; */
+"rCq-Rz-gLC.text" = "Cargando data...";
+
+/* Class = "UILabel"; text = "Price"; ObjectID = "uUd-G8-5Yq"; */
+"uUd-G8-5Yq.text" = "Price";
+
+/* Class = "UILabel"; text = "Artist"; ObjectID = "vm1-hv-hTb"; */
+"vm1-hv-hTb.text" = "Artist";
